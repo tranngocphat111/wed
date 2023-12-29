@@ -1,0 +1,8 @@
+1. Header (Đầu trang)
+2. Navigation (Điều hướng)
+3. Breadcrumb
+4. Sidebar
+5. Slider
+6. Banner (Quảng cáo)
+7. Content (Nội dung chính)
+8. Footer (Chân trang)

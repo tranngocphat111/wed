@@ -67,7 +67,7 @@ html {
 
 /* Main */
 #main{
-
+    
 }
 
 
@@ -82,6 +82,7 @@ html {
     left: 0;
     right: 0;
     z-index: 1;
+    
 }
 
 #nav, .subnav{
@@ -114,7 +115,7 @@ html {
 #nav > li:hover >a {
     color: #000;
     background-color: #ccc;
-    display: inline-block;
+    display: block;
 
 }
 #nav .subnav{
@@ -141,21 +142,39 @@ html {
 #nav .nav-arrow-down {
     font-size: 12px;
 }
+#header .mobile-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+#header .mobile-menu-btn,
 #header .search-btn{
     float: right;
     padding: 0px 16px;
     
+    
 }
+#header .menu-icon,
 #header .search-icon {
     line-height: 46px;
     color: #fff;
     font-size: 20px;
-    
+   
 }
+
 #header .search-btn:hover {
     cursor: pointer;
-    background-color: #f44336!important;
+    background-color: #f44336;
 }
+
+#header .mobile-menu-btn:hover {
+    background-color: #ccc;
+}
+#header .mobile-menu-btn:hover .menu-icon {
+    color: #000;
+}
+
 #slider{
     position: relative;
     margin-top: 46px;
@@ -191,9 +210,12 @@ html {
 
 #content .content-section {
     width: 800px;
+    max-width: 100%;
     padding: 64px 0px 112px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #content .section-heading {
@@ -271,7 +293,7 @@ html {
 
 /* Place*/
 .places-list {
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 .place-img {
@@ -490,6 +512,9 @@ html {
 .copyright a {
     color: rgba(0,0,0 , 0.6);
 }
+
+
+
 
 
 
